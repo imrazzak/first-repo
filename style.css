@@ -6,7 +6,7 @@ body{
     background-color: aliceblue;
 }
 .header{
-    background: #15b874;
+    background: #291f8a;
     color: #fff;
     height: 70px;
     display: flex;
@@ -25,6 +25,23 @@ body{
 }
 .navbar .nav-lists .nav-list:hover{
     cursor: pointer;
-    background: #07c576;
+    background: #d3dcfb;
     border-radius: 4px;
+    color: #222;
+}
+.banner{
+    background:linear-gradient(90deg, rgba(39, 103, 146, 0.5), rgba(44, 18, 192, 0.5)), url(images/bg.jpg);
+    height: 91.5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.banner h2{
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
