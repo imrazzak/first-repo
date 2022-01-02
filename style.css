@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.header{
+    background: #15b874;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.navbar .nav-lists .nav-list{
+    list-style: none;
+    display: inline;
+    /* background: chartreuse; */
+    padding: 10px 20px;
+}
+.navbar .nav-lists .nav-list:hover{
+    cursor: pointer;
+    background: #07c576;
+    border-radius: 4px;
+}
